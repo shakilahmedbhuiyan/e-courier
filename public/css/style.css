@@ -1,0 +1,179 @@
+/*
+* Custom style for the system
+*
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+.shadow-md {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1) !important;
+}
+
+.js-hidden {
+    display: none;
+}
+
+
+.text-red {
+    color: #e9605c !important;
+}
+
+.bg-logo {
+    background: url('../storage/assets/logo-outline.svg');
+    background-size: 30% 50%;
+    background-repeat: no-repeat;
+    background-position: left bottom !important;
+    background-blend-mode: exclusion;
+
+}
+
+.error-gif {
+    width: 25%;
+    border-bottom: 1px solid orangered;
+}
+
+@media (max-width: 576px) {
+    .error-gif {
+        width: 35%;
+    }
+}
+
+@media (max-width: 792px) {
+    .error-gif {
+        width: 30%;
+    }
+}
+
+.errorCode {
+    font-family: 'Orelega One', cursive;
+    font-size: 85px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #753ea8;
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: 0.8;
+}
+
+.errorMessage {
+    font-family: 'Orelega One', cursive;
+    text-transform: uppercase;
+    font-size: 28px;
+    text-align: center;
+    color: #D1AA62;
+}
+
+.font-size-50 {
+    font-size: 45px !important;
+}
+
+.font-size-25 {
+    font-size: 25px !important;
+}
+
+
+.user-card-full {
+    overflow: hidden
+}
+
+
+.user-card-full .user-profile {
+    border-radius: 5px 0 0 5px
+}
+
+.bg-c-lite-green {
+    background: -webkit-gradient(linear, left top, right top, from(#9ce8ff), to(#d5dcff));
+    background: linear-gradient(to right, #9ce8ff, #d5dcff);
+}
+
+
+.card-block {
+    padding: 1.25rem
+}
+
+.m-b-25 {
+    margin-bottom: 25px
+}
+
+.img-radius {
+    border-radius: 5px
+}
+
+.card .card-block p {
+    line-height: 25px
+}
+
+.card-block {
+    padding: 1.25rem
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0
+}
+
+.m-b-20 {
+    margin-bottom: 20px
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important
+}
+
+.card .card-block p {
+    line-height: 25px
+}
+
+.m-b-10 {
+    margin-bottom: 10px
+}
+
+.text-muted {
+    color: #919aa3 !important
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0
+}
+
+.f-w-600 {
+    font-weight: 600;
+}
+
+.f-s-30 {
+    font-size: 30px;
+}
+
+.m-b-20 {
+    margin-bottom: 20px
+}
+
+.m-t-40 {
+    margin-top: 20px;
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important
+}
+
+.m-b-10 {
+    margin-bottom: 10px
+}
+
+.m-t-40 {
+    margin-top: 20px
+}
+
+.user-card-full .social-link li {
+    display: inline-block
+}
+
+.user-card-full .social-link li a {
+    font-size: 20px;
+    margin: 0 10px 0 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out
+}
+
+
+
+
