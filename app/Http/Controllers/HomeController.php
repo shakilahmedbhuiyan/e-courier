@@ -32,6 +32,13 @@ class HomeController extends Controller
             'branchTo' => 'required|integer|exists:App\Branch,id|different:branchFrom',
             'delivery' => 'required|string|in:express,regular,next_day',
             'receiver' => 'required|email:rfc,dns',
+        ],
+        [
+            'branchFrom.required' => "Shipping branch is required",
+            'branchTo.required' => "Shipment need a delivery branch",
+            'delivery.required' => "Select a delivery method",
+            'receiver.required' => "No shipment can placed without a receiver!",
+            'receiver.email' => "Not a valid email address"
         ]);
         return redirect()->route('courier.book',$q);
     }
