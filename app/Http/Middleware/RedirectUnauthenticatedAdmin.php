@@ -9,8 +9,6 @@ use App\Http\Middleware\Authenticate as Middleware;
 class RedirectUnauthenticatedAdmin extends Middleware
 {
 
-
-
     /**
      * Handle an incoming request.
      *
